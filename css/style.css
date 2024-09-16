@@ -568,6 +568,12 @@ body {
   font-size: 2rem;
 }
 
+.black-bars-color,
+.black-bars-color::before,
+.black-bars-color::after {
+  background-color: #2e2e2e;
+}
+
 @media (max-width: 767px) {
   .reviews.section-padding {
     padding: 6em 0;
